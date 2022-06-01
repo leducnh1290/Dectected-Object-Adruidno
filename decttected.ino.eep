@@ -10,9 +10,8 @@ void setup() {
 
 void loop() {
   //using the digitalRead function we will read the signal of the sensor
-  int value = digitalRead(PIR);
   //if its high or if an any object is detected it will activate the Relay Module
-  if (value == HIGH){
+  if (digitalRead(PIR){
     digitalWrite(Relay, LOW); //For activating the Relay we will send a LOW as the Relay input pin works inversely.
    delay(1000);
   }
