@@ -1,0 +1,1 @@
+# Dectected-Object-Adruidno
