@@ -16,7 +16,6 @@ void loop() {
    delay(1000);
   }
   else {
-    //digitalWrite(LED, LOW);
     digitalWrite(Relay, HIGH);
     delay(1000);
   } 
